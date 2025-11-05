@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonés</title>
+    <link rel="stylesheet" href="../STYLE/produto.css">
+    <link rel="icon" href="../FOTOS/Logo.png" type="image/png">
+</head>
+<body>
+  <div id="detalhes-produto"></div>
+
+    <script>
+      
+  const produtos = [
+    {
+      id: 1,
+      nome: "Boné Country Azul",
+      preco: 79.90,
+      descricao: "Boné ideal para rodeios e cavalgadas. Estilo e conforto rural.",
+      imagem: "imagens/bone1.jpg"
+    },
+    // pode adicionar mais produtos aqui
+  ];
+
+  const idSelecionado = localStorage.getItem("produtoSelecionado");
+  const produto = produtos.find(p => p.id == idSelecionado);
+
+  const container = document.getElementById("detalhes-produto");
+  container.innerHTML = `
+    <img src="${produto.imagem}" alt="${produto.nome}">
+    <h2>${produto.nome}</h2>
+    <p>${produto.descricao}</p>
+    <h3>R$ ${produto.preco.toFixed(2)}</h3>
+  `;
+
+  function calcularFrete() {
+    const cep = document.getElementById("cep").value;
+    if (cep.length < 8) {
+      alert("Digite um CEP válido");
+      return;
+    }
+    // Simulação simples — você pode usar APIs reais (ex: ViaCEP)
+    document.getElementById("resultado-frete").innerText = 
+      `Entrega estimada: 5 dias úteis - Frete R$ 19,90`;
+  }
+</script>
+</body>
+</html>
