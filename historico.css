@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(90deg, #000000, #00522f);
+}
+
+.btn-voltar{
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.historico{
+    color: #121212;
+    background-color: #fafcfb;
+    width: 50%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin-top: 40px ;
+    margin-left: 200px ;
+}
