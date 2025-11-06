@@ -131,7 +131,7 @@ compras.addEventListener('click', () =>{
 window.location.href = "compras.html";
 
 }
-)
+);
 
 
 
