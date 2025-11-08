@@ -2,3 +2,12 @@ body{
     background: linear-gradient(90deg, #000000, #00522f);
     overflow: hidden;
 }
+
+
+.voltar{
+    background: none;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+}
