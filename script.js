@@ -93,7 +93,7 @@ fechar.addEventListener('click', () => {
 modoEscuro.addEventListener('change', () => {
   document.body.classList.toggle('dark-mode', modoEscuro.checked);
   footer.classList.toggle('dark-mode', modoEscuro.checked);
-  myconfig.classList.toggle('dark-mode', modoEscuro.checked);
+  myconfig.classList.toggle('dark-mode2', modoEscuro.checked);
   
 });
 
