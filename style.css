@@ -562,7 +562,7 @@ hr{
     display: flex;
     flex-direction: column;
     margin-top: -120px;
-    margin-left: 395px;
+    margin-left: 326px;
 }
 
 .nav-produto {
@@ -612,12 +612,12 @@ hr{
 /* bones no carrossel */
 .carrossel {
     position: relative;
-    width: 150%;
+    width: 130%;
     margin: 40px auto;
     display: flex;
     align-items: center;
-    margin-top: -80px;
-    margin-left: -150px;
+    margin-top: -20px;
+    margin-left: -130px;
 }
 
 .div-bone {
