@@ -499,8 +499,9 @@ hr{
 
 
 /* ---- Resposividade ----*/ 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   body{
+    overflow: auto;
     background: linear-gradient(90deg, #000000, #00522f);
   }
 
@@ -510,7 +511,7 @@ hr{
     font-size: 20px;
     color: #fff;
     text-shadow:0 0 2px #fff;
-    margin-left: 50px; /* mantido próximo da posição original */
+    margin-left: 120px; /* mantido próximo da posição original */
     margin-top: 50px;
   }
 
@@ -519,14 +520,14 @@ hr{
     display: flex;
     text-shadow:0 0 20px #fff ;
     font-size: 27px;
-    margin-left: 30px; /* ajustado para caber na tela */
-    margin-top: 140px;
+    margin-left: 150px; /* ajustado para caber na tela */
+    margin-top: 190px;
   }
 
   /* Logo/Instagram */
   .img{
     display: flex;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: -59px;
     opacity: 90%;
     border-radius: 45px;
@@ -556,154 +557,166 @@ hr{
     border-radius: 10px;
   }
 
-  /* Navegação lateral */
-  .navs{
+  /* navegadores lateral */
+.navs {
     display: flex;
     flex-direction: column;
-    margin-top: -80px;
-    margin-left: 10px; /* ajustado para caber */
-  }
+    margin-top: -120px;
+    margin-left: 395px;
+}
 
-  .nav-produto{
+.nav-produto {
     color: #fff;
     display: flex;
-    margin-top: 0px;
+    margin-top: -96px;
     cursor: pointer;
     position: relative;
-  }
+}
 
-  .carrinho-nav-svg{
+.carrinho-nav-svg {
     margin-left: -3px;
     margin-top: -20px;
     width: 30px;
-  }
+}
 
-  .contatos-nav-svg{
+.contatos-nav-svg {
     margin-left: -2px;
     margin-top: -26px;
     width: 30px;
-  }
+}
 
-  .nav-contato{
+.nav-contato {
     color: #fff;
     display: flex;
-    margin-top: 10px;
+    margin-top: -40px;
     cursor: pointer;
     border-color: #000000;
-  }
+}
 
-  #config{
+#config {
     cursor: pointer;
     color: #fff;
     display: flex;
-    margin-top: 10px;
-    margin-left: -5px;
-  }
+    margin-top: -240px;
+    margin-left: -15px;
+}
 
-  /* Ocultar textos */
-  .produto-p, .contato-p {
+.produto-p {
     display: none;
-  }
+}
 
-  /* Carrossel */
-  .carrossel{
+.contato-p {
+    display: none;
+}
+
+/* bones no carrossel */
+.carrossel {
     position: relative;
-    width: 95%; /* ajustado */
+    width: 150%;
     margin: 40px auto;
     display: flex;
     align-items: center;
-    margin-top: 10px;
-  }
+    margin-top: -80px;
+    margin-left: -150px;
+}
 
-  .div-bone{
+.div-bone {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%; /* corrigido */
+    width: 5%;
     transition: transform 0.5s ease;
-    height: 400px; /* altura reduzida para celular */
-  }
+    height: 600px;
+}
 
-  .bone{
+.bone {
     position: absolute;
     opacity: 0;
     transform: scale(0.8);
     transition: all 0.6s ease;
     text-align: center;
-  }
+}
 
-  .bone.active{
+.bone.active {
+    transition: transform 0.15s ease;
+    z-index: 10;
+}
+
+bone.active {
+    transition: transform 0.15s ease;
+    z-index: 10;
+}
+
+.bone.active:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+.bone img {
+    width: 100px;
+    border-radius: 20px;
+    box-shadow: 0 0px 10px #000000;
+}
+
+.bone.active {
     opacity: 1;
     transform: scale(1);
     z-index: 3;
-  }
+}
 
-  .bone.left{
+.bone.left {
     opacity: 0.2;
-    transform: translateX(-60px) scale(0.8); /* ajustado para celular */
+    transform: translateX(-189px) scale(0.8);
     z-index: 2;
-  }
+    margin-left: 130px;
+}
 
-  .bone.right{
+.bone.right {
     opacity: 0.2;
-    transform: translateX(60px) scale(0.8); /* ajustado para celular */
+    transform: translateX(180px) scale(0.8);
     z-index: 2;
-  }
+    margin-left: -110px;
+}
 
-  .bone img{
-    width: 100px; /* reduzido para caber */
-    border-radius: 20px;
-    box-shadow: 0 0px 10px #000000;
-  }
-
-  .bone.active:hover{
-    transform: scale(1.1);
-    z-index: 2;
-  }
-
-  /* Setas */
-  .div-arrow{
+.div-arrow {
     cursor: pointer;
     color: #fff;
+    align-items: auto;
     z-index: 5;
     transition: background 0.3s, box-shadow 0.2s;
     user-select: none;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    margin: 160px;
+    border-radius: 50%;
     height: 40px;
-    width: 40px;
-  }
+    display: flex;
+    margin-top: 500px;
+}
 
-  .div-arrow:hover{
-    transform: scale(1.1);
+.div-arrow:hover {
+    transform: scale3d(0.1);
     background-color: #01ad62;
     box-shadow: #fff;
-  }
+    font-style: none;
+}
 
-  /* Botões conferir */
-  .btn-conferir{
+.btn-conferir {
     border: none;
-    padding: 8px 16px;
+    padding: 10px 20px;
     color: #fff;
     background-color: #000000;
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
     transition: box-shadow 0.3s;
-  }
-
-  .btn-conferir:hover{
-    box-shadow: 0 0 10px #fffefe ;
-  }
-
-  .div-conferir{
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
-  }
 }
 
+.btn-conferir:hover {
+    box-shadow: 0 0 10px #fffefe;
+}
 
+.div-conferir {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+}
 
-
-
+}
