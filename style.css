@@ -612,12 +612,12 @@ hr{
 /* bones no carrossel */
 .carrossel {
     position: relative;
-    width: 130%;
+    width: 100%;
     margin: 40px auto;
     display: flex;
     align-items: center;
     margin-top: -20px;
-    margin-left: -130px;
+    margin-left: -30px;
 }
 
 .div-bone {
@@ -685,7 +685,7 @@ bone.active {
     z-index: 5;
     transition: background 0.3s, box-shadow 0.2s;
     user-select: none;
-    margin: 160px;
+    margin: 100px;
     border-radius: 50%;
     height: 40px;
     display: flex;
