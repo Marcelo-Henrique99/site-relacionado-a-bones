@@ -570,6 +570,27 @@ hr{
     width: 14%;
   }
 
+  .link-insta {
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+  font-size: 0;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  line-height: 0;     /* remove espaçamento invisível */
+  flex: 0 0 auto;     /* se o pai for flex, não estica */
+  vertical-align: middle;
+}
+
+
+.link-insta img {
+  display: block;      /* elimina o “gap” de imagem inline */
+  width: 50px;         /* ou o tamanho real que você usa */
+  height: 50px;
+  border-radius: 10px;
+}
+
   .img:hover{
     transform: scale(1.1);
   }
@@ -595,7 +616,7 @@ hr{
 .navs {
     display: flex;
     gap: 40px;
-    margin-top: -100px;
+    margin-top: -40px;
     margin-left: 210px;
 }
 
@@ -740,6 +761,7 @@ bone.active {
     border-radius: 20px;
     cursor: pointer;
     margin-top: 10px;
+    margin-left: -10px;
     transition: box-shadow 0.3s;
 }
 
@@ -750,19 +772,19 @@ bone.active {
 .div-conferir {
     width: 20px;
     font-size: 10px;
+    margin-left: 50px;
 }
 
+.div-conferir h3{
+  width: 150px;
+  margin-left: -50px;
+}
 
 /*menu config*/
 
 
 
-.link-insta {
-  font-size: 0;           
-  text-decoration: none; 
 
- 
-}
 
 
 
