@@ -701,14 +701,14 @@ bone.active {
     opacity: 0.2;
     transform: translateX(-189px) scale(0.8);
     z-index: 2;
-    margin-left: 130px;
+    margin-left: 180px;
 }
 
 .bone.right {
     opacity: 0.2;
     transform: translateX(180px) scale(0.8);
     z-index: 2;
-    margin-left: -129px;
+    margin-left: -159px;
 }
 
 .div-arrow {
