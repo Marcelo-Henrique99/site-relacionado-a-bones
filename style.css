@@ -490,9 +490,56 @@ hr{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- Resposividade ----*/ 
 @media (max-width: 600px) {
   body{
+    width: 100%;
     overflow: auto;
     background: linear-gradient(90deg, #000000, #00522f);
   }
@@ -507,7 +554,7 @@ hr{
     
     text-shadow:0 0 20px #fff ;
     font-size: 27px;
-    margin-left: 150px; /* ajustado para caber na tela */
+    margin-left: 110px; /* ajustado para caber na tela */
     margin-top: 120px;
   }
 
@@ -536,7 +583,7 @@ hr{
     font-size: 14px;
     text-shadow:0 0 20px #fff ;
     margin-top: -170px;
-    margin-left: -10px;
+    margin-left: -80px;
   }
 
   .footer{
@@ -549,7 +596,7 @@ hr{
     display: flex;
     gap: 40px;
     margin-top: -100px;
-    margin-left: 250px;
+    margin-left: 210px;
 }
 
 .nav-produto {
@@ -602,7 +649,8 @@ hr{
     display: flex;
     align-items: center;
     margin-top: -20px;
-    margin-left: -30px;
+    margin-left: -50px;
+    z-index: 9999;
 }
 
 .div-bone {
