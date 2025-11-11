@@ -539,7 +539,7 @@ hr{
 /* ---- Resposividade ----*/ 
 @media (max-width: 600px) {
   body{
-    width: 100%;
+    
     overflow: auto;
     background: linear-gradient(90deg, #000000, #00522f);
   }
@@ -583,7 +583,7 @@ hr{
     font-size: 14px;
     text-shadow:0 0 20px #fff ;
     margin-top: -170px;
-    margin-left: -80px;
+    margin-left: -10px;
   }
 
   .footer{
@@ -621,7 +621,7 @@ hr{
     display: flex;
     margin-top: -40px;
     cursor: pointer;
-    z-index: ;
+    
 }
 
 #config {
@@ -647,10 +647,10 @@ hr{
     width: 100%;
     margin: 40px auto;
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin-top: -20px;
-    margin-left: -50px;
-    z-index: 9999;
+    
+    z-index: 2;
 }
 
 .div-bone {
@@ -708,7 +708,7 @@ bone.active {
     opacity: 0.2;
     transform: translateX(180px) scale(0.8);
     z-index: 2;
-    margin-left: -110px;
+    margin-left: -129px;
 }
 
 .div-arrow {
@@ -770,14 +770,14 @@ bone.active {
   position: fixed;
 
   top: 0;
-  right: -400px; 
+  right: -700px; 
   height: 54%;
   background-color: #060606 ;
   box-shadow: 0 0  40px rgb(0, 0, 0);
   
   transition: right 0.4s;
   border-radius: 20px;
-  z-index: 99999;
+  
 }
 
 .aba-config.ativo {
