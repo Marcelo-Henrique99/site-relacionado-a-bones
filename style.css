@@ -288,12 +288,11 @@ body{
   cursor: pointer;
   color: #fff;
 display: inline;
-margin-top: 1px;
-margin-left: 90px;
+margin-top: 5px;
+margin-left: -1px;
   
   
 }
-
 
 
 .link-insta {
@@ -305,24 +304,17 @@ margin-left: 90px;
 }
 
 
-
-
-
-
-
-
 #config {
   position: relative;
   top: 15px;
-  
   margin-left: -1px;
-  margin-top: -10px;
+  margin-top: -8px;
   color: white;
   border: none;
   padding: 10px 10px;
   border-radius: 8px;
   cursor: pointer;
-  
+  width: 30px;
   
 }
 
@@ -507,28 +499,23 @@ hr{
 
   /* Títulos */
   .titulo{
-    display: flex;
-    font-size: 20px;
-    color: #fff;
-    text-shadow:0 0 2px #fff;
-    margin-left: 120px; /* mantido próximo da posição original */
-    margin-top: 50px;
+    display: none;
   }
 
   .title{
     color: #fff;
-    display: flex;
+    
     text-shadow:0 0 20px #fff ;
     font-size: 27px;
     margin-left: 150px; /* ajustado para caber na tela */
-    margin-top: 190px;
+    margin-top: 120px;
   }
 
   /* Logo/Instagram */
   .img{
     display: flex;
     margin-left: 30px;
-    margin-top: -59px;
+    margin-top: 25px;
     opacity: 90%;
     border-radius: 45px;
     cursor: pointer;
@@ -548,7 +535,7 @@ hr{
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     text-shadow:0 0 20px #fff ;
-    margin-top: -120px;
+    margin-top: -170px;
     margin-left: -10px;
   }
 
@@ -560,45 +547,43 @@ hr{
   /* navegadores lateral */
 .navs {
     display: flex;
-    flex-direction: column;
-    margin-top: -120px;
-    margin-left: 326px;
+    gap: 40px;
+    margin-top: -100px;
+    margin-left: 250px;
 }
 
 .nav-produto {
-    color: #fff;
     display: flex;
     margin-top: -96px;
-    cursor: pointer;
-    position: relative;
 }
 
 .carrinho-nav-svg {
     margin-left: -3px;
     margin-top: -20px;
-    width: 30px;
+    width: 20px;
 }
 
 .contatos-nav-svg {
     margin-left: -2px;
-    margin-top: -26px;
-    width: 30px;
+    margin-top: -75px;
+    width: 20px;
+    z-index: 2;
 }
 
 .nav-contato {
-    color: #fff;
     display: flex;
     margin-top: -40px;
     cursor: pointer;
-    border-color: #000000;
+    z-index: ;
 }
 
 #config {
     cursor: pointer;
     color: #fff;
     display: flex;
-    margin-top: -240px;
+    margin-top: -230px;
     margin-left: -15px;
+    width: 20px;
 }
 
 .produto-p {
@@ -653,7 +638,7 @@ bone.active {
 }
 
 .bone img {
-    width: 100px;
+    width: 150px;
     border-radius: 20px;
     box-shadow: 0 0px 10px #000000;
 }
@@ -701,7 +686,7 @@ bone.active {
 
 .btn-conferir {
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     color: #fff;
     background-color: #000000;
     border-radius: 20px;
@@ -715,8 +700,166 @@ bone.active {
 }
 
 .div-conferir {
-    color: #fff;
-    font-family: "Montserrat", sans-serif;
+    width: 20px;
+    font-size: 10px;
 }
+
+
+/*menu config*/
+
+
+
+.link-insta {
+  font-size: 0;           
+  text-decoration: none; 
+
+ 
+}
+
+
+
+.aba-config {
+  position: fixed;
+
+  top: 0;
+  right: -400px; 
+  height: 54%;
+  background-color: #060606 ;
+  box-shadow: 0 0  40px rgb(0, 0, 0);
+  
+  transition: right 0.4s;
+  border-radius: 20px;
+  z-index: 99999;
+}
+
+.aba-config.ativo {
+  right: 0; /* aparece */
+  
+}
+
+.dark-mode {
+  background: #222;
+  color: rgb(0, 0, 0);
+}
+
+.dark-mode2 {
+  background: #070707;
+  color: rgb(0, 0, 0);
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+
+.fechar{
+  padding: 5px 5px;
+  margin-top: 20px;
+  margin-left: 115px;
+}
+
+
+.element-aba button{
+  display: flex;
+  
+  height: 30px;
+
+}
+
+.conta{
+  border-radius: 50%;
+  border: none;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 10px;
+  transition: transform 0.3s, color 0.3s ease ;
+}
+
+.conta:hover{
+  transform: scale(1.3);
+  color: #04880c;
+}
+
+.historico{
+  border-radius: 20px;
+  align-items: center;
+  margin-left: 115px;
+  margin-top: 20px;
+  padding: 5px 5px;
+  
+  
+}
+
+.mensage{
+    border-radius: 20px;
+  align-items: center;
+  border: none;
+
+  margin-left: 100px;
+  margin-top: 20px;
+  
+}
+
+
+.compras{
+    border-radius: 20px;
+  align-items: center;
+  border: none;
+  box-shadow: 0 0 20px #01ad62;
+  margin-left: 91px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+.modo-escuro{
+  margin-top: 30px;
+  margin-left: 100px;
+  
+  
+}
+input[type="checkbox"] {
+  transform: scale(1.3); 
+  accent-color: #343435;
+  cursor: pointer;
+  
+}
+hr{
+  background-color: #10100f;
+  border-radius: 20px;
+  width: 290px;
+  margin-left: 2px;
+  height: 2px;
+  margin-top: 40px;
+  box-shadow: 0 0 2px #01ad62;
+}
+
+.meio-aba{
+  background-color: #ffffff;
+  max-width:130%;
+  
+ box-shadow: 0 0 10px #01ad62;
+  
+  margin-left: -0.2px;
+  border-radius: 4px;
+  margin-top: -20px;
+  height: 270px ;
+  
+
+  
+}
+
+
+
+
+.hr2{
+  margin-left: 2px;
+  margin-top: 50px;
+}
+
+
+
+
+
 
 }
