@@ -358,7 +358,7 @@ label {
   align-items: center;
   background-color: #faf8f8;
   margin-top: 20px;
-  margin-left: 115px;
+  margin-left: 94px;
   color: #080808;
   cursor: pointer;
   border: none;
@@ -384,11 +384,11 @@ label {
   border: none;
   align-items: center;
   box-shadow: 0 0 10px #01ad62;
-  margin-left: 120px;
+  margin-left: 105px;
   margin-top: 10px;
   cursor: pointer;
-  padding: 30px 20px;
-  transition: transform 0.3s, color 0.3s ease ;
+  padding: 20px 10px;
+  transition: transform 0.5s, color 0.5s ease ;
 }
 
 .conta:hover{
@@ -402,7 +402,7 @@ label {
   
   border: none;
   box-shadow: 0 0 20px #01ad62;
-  margin-left: 115px;
+  margin-left: 95px;
   margin-top: 20px;
   cursor: pointer;
   
@@ -414,7 +414,7 @@ label {
   align-items: center;
   border: none;
   box-shadow: 0 0 20px #01ad62;
-  margin-left: 100px;
+  margin-left: 80px;
   margin-top: 50px;
   cursor: pointer;
   position: relative;
@@ -435,7 +435,7 @@ label {
   align-items: center;
   border: none;
   box-shadow: 0 0 20px #01ad62;
-  margin-left: 91px;
+  margin-left: 70px;
   margin-top: 50px;
   cursor: pointer;
 }
@@ -443,7 +443,7 @@ label {
 
 .modo-escuro{
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 75px;
   
   
 }
@@ -453,37 +453,21 @@ input[type="checkbox"] {
   cursor: pointer;
   
 }
-hr{
-  background-color: #10100f;
-  border-radius: 20px;
-  width: 290px;
-  margin-left: 2px;
-  height: 2px;
-  margin-top: 40px;
-  box-shadow: 0 0 2px #01ad62;
-}
+
 
 .meio-aba{
   background-color: #ffffff;
-  max-width:130%;
-  
+  width: 250px;
+  max-width: 100%;
  box-shadow: 0 0 10px #01ad62;
-  
-  margin-left: -0.2px;
+  padding-top: 10px;
+  margin-left: 0px;
   border-radius: 4px;
-  margin-top: -20px;
+  margin-top: 20px;
   height: 330px ;
+border-top: solid 5px #01ad62;
+border-bottom: solid 5px #01ad62;
   
-
-  
-}
-
-
-
-
-.hr2{
-  margin-left: 2px;
-  margin-top: 50px;
 }
 
 
@@ -536,7 +520,11 @@ hr{
 
 
 
-/* ---- Resposividade ----*/ 
+
+
+
+
+/* ---- Resposividade celular ----*/ 
 @media (max-width: 600px) {
   body{
     
@@ -644,7 +632,6 @@ hr{
     cursor: pointer;
     
 }
-
 #config {
     cursor: pointer;
     color: #fff;
@@ -661,6 +648,13 @@ hr{
 .contato-p {
     display: none;
 }
+
+
+
+
+
+
+
 
 /* bones no carrossel */
 .carrossel {
@@ -780,20 +774,17 @@ bone.active {
   margin-left: -50px;
 }
 
+
+
 /*menu config*/
-
-
-
-
-
-
 
 .aba-config {
   position: fixed;
-
+margin-top: 10px;
   top: 0;
-  right: -700px; 
-  height: 54%;
+  width:30%;
+  right: -400px; 
+  height: 52%;
   background-color: #060606 ;
   box-shadow: 0 0  40px rgb(0, 0, 0);
   
@@ -801,6 +792,8 @@ bone.active {
   border-radius: 20px;
   
 }
+
+
 
 .aba-config.ativo {
   right: 0; /* aparece */
@@ -818,30 +811,34 @@ bone.active {
 }
 
 label {
-  display: block;
-  margin: 15px 0;
+  display: flex;
+  margin-left: 9px;
+ font-size: 12px;
+ margin-top: 35px;
+
 }
 
 .fechar{
-  padding: 5px 5px;
-  margin-top: 20px;
-  margin-left: 115px;
+  padding: 10px 10px;
+  margin-top: 13px;
+  margin-left: 35px;
 }
 
 
 .element-aba button{
   display: flex;
-  
-  height: 30px;
+  height: 10px;
 
 }
 
 .conta{
   border-radius: 50%;
   border: none;
-  align-items: center;
+  margin-left: 40px;
   cursor: pointer;
-  padding: 10px 10px;
+  margin-top: -10px;
+box-shadow: 0 0 30px #01ad62;
+  padding: 15px 5px;
   transition: transform 0.3s, color 0.3s ease ;
 }
 
@@ -851,69 +848,65 @@ label {
 }
 
 .historico{
-  border-radius: 20px;
+  border-radius: 6px;
   align-items: center;
-  margin-left: 115px;
+  margin-left: 13px;
   margin-top: 20px;
-  padding: 5px 5px;
+  padding: 10px 10px;
+  font-size: 10px;
+box-shadow: 0 0 2px #01ad62;
   
   
 }
 
 .mensage{
-    border-radius: 20px;
+    border-radius: 6px;
   align-items: center;
-  border: none;
-
-  margin-left: 100px;
+   padding: 10px 10px;
+box-shadow: 0 0 2px #01ad62;
+  margin-left: 12px;
   margin-top: 20px;
-  
+  font-size: 10px;
 }
 
 
 .compras{
-    border-radius: 20px;
-  align-items: center;
-  border: none;
-  box-shadow: 0 0 20px #01ad62;
-  margin-left: 91px;
+    border-radius: 6px;
+  margin-left: 10px;
   margin-top: 20px;
   cursor: pointer;
+  font-size: 10px;
+
+box-shadow: 0 0 2px #01ad62;
+  padding: 10px 10px;
 }
 
 
 .modo-escuro{
   margin-top: 30px;
-  margin-left: 100px;
+  max-width: 10px;
+  width: 20%;
+  margin-left: 2px;
   
   
 }
 input[type="checkbox"] {
-  transform: scale(1.3); 
+  transform: scale(1.1); 
   accent-color: #343435;
   cursor: pointer;
-  
-}
-hr{
-  background-color: #10100f;
-  border-radius: 20px;
-  width: 290px;
-  margin-left: 2px;
-  height: 2px;
-  margin-top: 40px;
-  box-shadow: 0 0 2px #01ad62;
+  margin-top: -0.5px;
 }
 
 .meio-aba{
   background-color: #ffffff;
-  max-width:130%;
-  
- box-shadow: 0 0 10px #01ad62;
-  
-  margin-left: -0.2px;
+  max-width:98%;
+box-shadow: 0 0 5px #01ad62;
+ border-top: 5px solid #01ad6290;
+ border-bottom: 5px solid #01ad629e;
+ margin-left: 2px;
   border-radius: 4px;
-  margin-top: -20px;
-  height: 270px ;
+  margin-top: 20px;
+  height: 200px ;
   
 
   
@@ -922,10 +915,6 @@ hr{
 
 
 
-.hr2{
-  margin-left: 2px;
-  margin-top: 50px;
-}
 
 
 

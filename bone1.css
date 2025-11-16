@@ -173,3 +173,64 @@ li{
     cursor: pointer;
     border-radius: 50%;
 }
+
+
+@media (max-width: 600px){
+  body{
+  overflow: scroll;
+    background: linear-gradient(90deg, #000000, #00522f);
+    
+}
+
+.voltar{
+  display: flex;
+  margin-top: 0vw;
+  margin-left: 50vw;
+}
+
+.titulo{
+  margin-left: -80vw;
+  width: 4%;
+  color: #000000;
+}
+
+.container-div{
+  padding: 260vw 10vw;
+  display: flex;
+  margin-left: -2vw;
+}
+
+.img{
+  max-width: 10%;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+  
+}
+
+.img:hover{
+   transform:scale(1.3);
+   box-shadow: 0 0 100px #134c27;
+
+}
+
+
+
+.div-position{
+  display: flex;
+  padding: 10px 10px;
+  flex-direction: column;
+  margin-top: -200vw;
+  margin-left: -230vw;
+  gap: 50vw;
+}
+
+.form{
+
+ 
+}
+
+.botao-comprar{
+  display: flex;
+  margin-top: -00vw;
+  margin-left: 35vw
+}
+}
