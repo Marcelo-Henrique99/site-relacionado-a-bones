@@ -223,6 +223,7 @@ body{
 }
 
 .bone.active{
+  cursor: pointer;
   opacity: 1;
   transform: scale(1);
   z-index: 3;
@@ -606,6 +607,7 @@ border-bottom: solid 5px #01ad62;
     gap: 40px;
     margin-top: -40px;
     margin-left: 210px;
+    
 }
 
 .nav-produto {
@@ -647,6 +649,20 @@ border-bottom: solid 5px #01ad62;
 
 .contato-p {
     display: none;
+}
+
+/* Desativar transforms/hover nos navs em mobile para evitar movimentação */
+.nav-produto:hover,
+.nav-contato:hover,
+.nav-produto:active,
+.nav-contato:active {
+  transform: none !important;
+}
+
+/* Garantir que os pseudos não animem ao mudar largura */
+.nav-produto::after,
+.nav-contato::after {
+  width: 0 !important;
 }
 
 

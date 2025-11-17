@@ -102,9 +102,9 @@ body{
 .titulo{
   color: #ffffff;
   
-  text-align: center;
+  
   margin-top: -380px;
-  margin-left: 440px;
+  margin-left: 340px;
   font-size: 30px;
   display: flex;
   text-shadow: 0 0 5px #ffffff;
@@ -177,33 +177,47 @@ li{
 
 @media (max-width: 600px){
   body{
-  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: scroll;
     background: linear-gradient(90deg, #000000, #00522f);
     
 }
 
-.voltar{
-  display: flex;
-  margin-top: 0vw;
-  margin-left: 50vw;
-}
+
+
+
 
 .titulo{
-  margin-left: -80vw;
-  width: 4%;
-  color: #000000;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: -300px;
+  color: #ffffff;
+  text-shadow: 0 0 20px #ffffff;
 }
 
 .container-div{
-  padding: 260vw 10vw;
-  display: flex;
-  margin-left: -2vw;
+  padding: 660px 45px;
+  background-color: #000000;
+margin-left: -5px;
+margin-top: -65px;
+
+}
+.bone1-p{
+  margin-left: -90px;
+  margin-top: -50px;
+}
+.bone1-p{
+ 
 }
 
 .img{
-  max-width: 10%;
+  display: flex;
+  max-width: 60%;
+  height: 10%;
+  margin-left: 50px;
+  margin-top: -460px;
   transition: transform 0.3s ease, box-shadow 0.2s ease;
-  
+ 
 }
 
 .img:hover{
@@ -211,17 +225,37 @@ li{
    box-shadow: 0 0 100px #134c27;
 
 }
+#descricao{
+  width: 200px;
+  
+}
 
+#div-preco{
+  
+  margin-top: -225px;
+  
+  
+}
 
+#div-origem{
+ margin-top: 80px;
+}
 
 .div-position{
   display: flex;
-  padding: 10px 10px;
+  
+  padding: 10px 90px;
   flex-direction: column;
-  margin-top: -200vw;
-  margin-left: -230vw;
-  gap: 50vw;
+margin-left: 80px;
+margin-top: -800px;
+  gap: 250px;
 }
+
+.div-color{
+  border-radius: 20px;
+   border: solid 5px #fff;
+}
+
 
 .form{
 
@@ -230,7 +264,15 @@ li{
 
 .botao-comprar{
   display: flex;
-  margin-top: -00vw;
-  margin-left: 35vw
+  font-size: 18px;
+  padding: 5px 90px;
+  margin-left: 80px;
+  margin-top: -50px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 15px #00522f;
+}
+.botao-comprar:hover {
+
+transform: scale(1.1);
 }
 }
