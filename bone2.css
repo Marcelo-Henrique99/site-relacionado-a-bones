@@ -90,7 +90,7 @@ body{
 .div-color{
   background: linear-gradient(90deg, black, #134c27);
   border-radius: 10px;
-  max-width: 300px;
+  max-width: 400px;
   margin-left: -40px;
   padding: 10px;
   box-shadow: 0 0 30px #000000;
@@ -102,9 +102,9 @@ body{
 .titulo{
   color: #ffffff;
   
-  text-align: center;
- margin-top: -380px;
-  margin-left: 440px;
+  
+  margin-top: -380px;
+  margin-left: 340px;
   font-size: 30px;
   display: flex;
   text-shadow: 0 0 5px #ffffff;
@@ -135,7 +135,7 @@ li{
   width: 20%;
   color: #fff;
   background-color: #134c27;
-  margin-left: 900px;
+  margin-left: 1000px;
   margin-top: -120px;
   justify-content: center;
   display: flex;
@@ -172,4 +172,112 @@ li{
     border: none;
     cursor: pointer;
     border-radius: 50%;
+}
+
+
+@media (max-width: 600px){
+  body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+    background: linear-gradient(90deg, #000000, #00522f);
+    
+}
+
+
+
+
+
+.titulo{
+  margin-left: 23px;
+  font-size: 20px;
+  margin-top: -330px;
+  color: #ffffff;
+  text-shadow: 0 0 20px #ffffff;
+}
+
+.container-div{
+  padding: 610px 45px;
+  background-color: #000000;
+margin-left: -13px;
+margin-top: -67px;
+border-radius: 0px;
+
+}
+.bone1-p{
+  margin-left: -360px;
+  margin-top: -50px;
+
+}
+.bone1-p{
+ 
+}
+
+.img{
+  display: flex;
+  max-width: 60%;
+  height: 10%;
+  margin-left: 60px;
+  margin-top: -400px;
+  transition: transform 0.3s ease, box-shadow 0.2s ease;
+ 
+}
+
+.img:hover{
+   transform:scale(1.3);
+   box-shadow: 0 0 100px #134c27;
+
+}
+#descricao{
+
+width: 220px;
+  
+}
+
+
+#div-preco{
+  
+  margin-top: -30px;
+  
+  
+}
+
+#div-origem{
+ 
+ margin-top: 190px;
+}
+
+.div-position{
+  display: flex;
+  
+  
+  flex-direction: column;
+margin-left: 435px;
+margin-top: -700px;
+  gap: 50px;
+}
+
+.div-color{
+  border-radius: 20px;
+   border: solid 5px #fff;
+}
+
+
+.form{
+
+ 
+}
+
+.botao-comprar{
+  display: flex;
+  font-size: 18px;
+  padding: 5px 90px;
+  margin-left: 95px;
+  margin-top: -40px;
+  transition: transform 0.5s ease;
+  box-shadow: 0 0 15px #00522f;
+}
+.botao-comprar:hover {
+
+transform: scale(1.1);
+}
 }
