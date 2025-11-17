@@ -190,7 +190,7 @@ li{
 .titulo{
   margin-left: 23px;
   font-size: 20px;
-  margin-top: -340px;
+  margin-top: -320px;
   color: #ffffff;
   text-shadow: 0 0 20px #ffffff;
 }
@@ -198,13 +198,15 @@ li{
 .container-div{
   padding: 660px 45px;
   background-color: #000000;
-margin-left: -5px;
-margin-top: -65px;
+margin-left: -13px;
+margin-top: -67px;
+border-radius: 0px;
 
 }
 .bone1-p{
-  margin-left: -90px;
+  margin-left: -360px;
   margin-top: -50px;
+
 }
 .bone1-p{
  
@@ -244,9 +246,9 @@ margin-top: -65px;
 .div-position{
   display: flex;
   
-  padding: 10px 90px;
+  padding: 10px 10px;
   flex-direction: column;
-margin-left: 105px;
+margin-left: 445px;
 margin-top: -800px;
   gap: 250px;
 }
@@ -266,7 +268,7 @@ margin-top: -800px;
   display: flex;
   font-size: 18px;
   padding: 5px 90px;
-  margin-left: 105px;
+  margin-left: 95px;
   margin-top: -50px;
   transition: transform 0.5s ease;
   box-shadow: 0 0 15px #00522f;
