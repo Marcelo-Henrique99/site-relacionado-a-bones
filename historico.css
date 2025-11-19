@@ -1,5 +1,5 @@
 body{
-    overflow: hidden;
+    overflow: scroll;
     background: linear-gradient(90deg, #000000, #00522f);
 }
 
@@ -12,14 +12,22 @@ body{
     margin-top: 10px;
 }
 
+.titulos{
+    margin-top: -160px;
+}
+.p-conta{
+    width: 200px;
+    margin-left: -50px;
+}
+
 .historico{
    
     color: #0a0a0a;
     background-color: #fff;
-    padding: 10px 10px;
+    padding: 200px 100px;
     width: 25%;
     margin-top: 30px;
-    margin-left: 400px;
+    margin-left: 40px;
     border-radius: 20px;
 }
 
