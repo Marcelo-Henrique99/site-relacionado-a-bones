@@ -351,6 +351,8 @@ margin-left: -1px;
 label {
   display: block;
   margin: 15px 0;
+ 
+  
 }
 
 .fechar{
@@ -402,7 +404,9 @@ label {
   align-items: center;
   
   border: none;
-  box-shadow: 0 0 20px #01ad62;
+    border: solid 2px #000000;
+box-shadow: 0 6px 10px #000000;
+  
   margin-left: 95px;
   margin-top: 20px;
   cursor: pointer;
@@ -414,7 +418,9 @@ label {
     border-radius: 20px;
   align-items: center;
   border: none;
-  box-shadow: 0 0 20px #01ad62;
+    border: solid 2px #000000;
+box-shadow: 0 6px 10px #000000;
+  
   margin-left: 80px;
   margin-top: 50px;
   cursor: pointer;
@@ -435,7 +441,9 @@ label {
     border-radius: 20px;
   align-items: center;
   border: none;
-  box-shadow: 0 0 20px #01ad62;
+    border: solid 2px #000000;
+box-shadow: 0 6px 10px #000000;
+  
   margin-left: 70px;
   margin-top: 50px;
   cursor: pointer;
@@ -840,7 +848,7 @@ box-shadow: 0 4px 10px #000000;
 }
 
 .fechar{
-  padding: 10px 10px;
+  padding: 15px 15px;
   margin-top: 13px;
   margin-left: 75px;
 }
