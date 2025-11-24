@@ -355,6 +355,14 @@ label {
   
 }
 
+.title-config{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-left: 70px;
+  
+}
+
 .fechar{
   padding: 10px 10px;
   border-radius: 20px;
