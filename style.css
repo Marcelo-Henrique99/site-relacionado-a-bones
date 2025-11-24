@@ -816,7 +816,7 @@ margin-top: 10px;
   top: 0;
   width:60%;
   right: -400px; 
-  height: 48%;
+  height: 55%;
   background-color: #060606 ;
   box-shadow: 0 0  40px rgb(0, 0, 0);
   
@@ -825,7 +825,13 @@ margin-top: 10px;
   
 }
 
-
+.title-config{
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin-left: -70px;
+  margin-top: 40px;
+}
 
 .aba-config.ativo {
   right: 0; /* aparece */
