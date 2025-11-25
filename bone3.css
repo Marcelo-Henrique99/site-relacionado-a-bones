@@ -196,7 +196,7 @@ li{
 }
 
 .container-div{
-  padding: 660px 45px;
+  padding: 660px 50px;
   background-color: #000000;
 margin-left: -13px;
 margin-top: -67px;
@@ -248,7 +248,7 @@ border-radius: 0px;
   
   padding: 10px 10px;
   flex-direction: column;
-margin-left: 445px;
+margin-left: 470px;
 margin-top: -800px;
   gap: 250px;
 }
